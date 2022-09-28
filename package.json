@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test-run":  "npx playwright test"
+    "test-run": "npx playwright test",
+    "report-generate":"allure generate allure-results -o allure-report --clean",
+    "report-open":"allure open allure-report"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.25.1"
+    "@playwright/test": "^1.26.1",
+    "allure-playwright": "^2.0.0-beta.19"
   }
 }
