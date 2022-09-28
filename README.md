@@ -14,7 +14,9 @@ Node.js : 14^
 git clone https://github.com/txt2021/Playwright_Redmine.git
 ```
 
+```
 npm install 
+```
 
 ## Run
 ```
