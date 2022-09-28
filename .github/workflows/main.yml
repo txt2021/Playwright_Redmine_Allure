@@ -18,7 +18,7 @@ jobs:
     - name: Install Playwright 
       run: npx playwright install --with-deps
     - name: Run all tests
-      run: npx playwright test
+      run: npm run test-run
     - uses: actions/checkout@v2
       if: always()
       with:
